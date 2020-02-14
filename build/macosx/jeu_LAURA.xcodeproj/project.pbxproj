@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6516522A7DA627B755E87057 /* jeulaura.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B22249172ED240E6780565E /* jeulaura.cpp */; };
+		70B228F00C2344F620A732C7 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74AD4EB548D23B9312F844FF /* Grapic.cpp */; };
+		11D634FD1E335E450FE136C6 /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11F57FA421575F30533A6B06 /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B22249172ED240E6780565E /* jeulaura.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "jeulaura.cpp"; path = "../../apps/jeulaura/jeulaura.cpp"; sourceTree = "<group>"; };
+		74AD4EB548D23B9312F844FF /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		25C145F15A775C4E7C823EF1 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		11F57FA421575F30533A6B06 /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		1B5C7C771C8262770DCA05ED /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		560470AF4F8525B20D920F6E /* jeu_LAURA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "jeu_LAURA"; path = "jeu_LAURA"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5D43283BAC452257AE3B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533040E67CCF64A41A673186 /* jeu_LAURA */ = {
+			isa = PBXGroup;
+			children = (
+				025F4EE8670634AD1C247D2F /* apps */,
+				73746E8C3CE96C13443F2D70 /* src */,
+				1A1A6703266F6E6659BB0C3F /* Products */,
+			);
+			name = "jeu_LAURA";
+			sourceTree = "<group>";
+		};
+		025F4EE8670634AD1C247D2F /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				39AC338B0D5B69561A127706 /* jeulaura */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		39AC338B0D5B69561A127706 /* jeulaura */ = {
+			isa = PBXGroup;
+			children = (
+				1B22249172ED240E6780565E /* jeulaura.cpp */,
+			);
+			name = "jeulaura";
+			sourceTree = "<group>";
+		};
+		73746E8C3CE96C13443F2D70 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				74AD4EB548D23B9312F844FF /* Grapic.cpp */,
+				25C145F15A775C4E7C823EF1 /* Grapic.h */,
+				11F57FA421575F30533A6B06 /* Grapic_func.cpp */,
+				1B5C7C771C8262770DCA05ED /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		1A1A6703266F6E6659BB0C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560470AF4F8525B20D920F6E /* jeu_LAURA */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3355096247617C9C403678BA /* jeu_LAURA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9A238217D24CF72FBD177A /* Build configuration list for PBXNativeTarget "jeu_LAURA" */;
+			buildPhases = (
+				2C09573C7673640D706B66FB /* Resources */,
+				1EC119BE23C92ED4039C0F3C /* Sources */,
+				4B5D43283BAC452257AE3B74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jeu_LAURA";
+			productInstallPath = "$(HOME)/bin";
+			productName = "jeu_LAURA";
+			productReference = 560470AF4F8525B20D920F6E /* jeu_LAURA */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "jeu_LAURA" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 533040E67CCF64A41A673186 /* jeu_LAURA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3355096247617C9C403678BA /* jeu_LAURA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C09573C7673640D706B66FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC119BE23C92ED4039C0F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6516522A7DA627B755E87057 /* jeulaura.cpp in Sources */,
+				70B228F00C2344F620A732C7 /* Grapic.cpp in Sources */,
+				11D634FD1E335E450FE136C6 /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FC16E2663C12BB4B8E7C55 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "jeu_LAURA";
+			};
+			name = "debug";
+		};
+		338479EA7D0C365431613EC1 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "jeu_LAURA";
+			};
+			name = "release";
+		};
+		55AE4E473F7C600E52352EDC /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/jeu_LAURA";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		017C056A2F36033C7C593529 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/jeu_LAURA";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9A238217D24CF72FBD177A /* Build configuration list for PBXNativeTarget "jeu_LAURA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FC16E2663C12BB4B8E7C55 /* debug */,
+				338479EA7D0C365431613EC1 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "jeu_LAURA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AE4E473F7C600E52352EDC /* debug */,
+				017C056A2F36033C7C593529 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

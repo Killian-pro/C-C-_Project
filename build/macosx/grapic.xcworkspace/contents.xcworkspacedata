@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+	version = "1.0">
+	<FileRef
+		location = "group:Start.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:MYPROJECT.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:calculette.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:invaders.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:systemsolaire.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:bird.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:particule.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:jeu_LAURA.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:shoot_basket.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:piano.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:dames.xcodeproj">
+	</FileRef>
+</Workspace>

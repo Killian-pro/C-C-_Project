@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0F161A64C3501D5FFF72B9 /* invaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B97271C5C1030D619102872 /* invaders.cpp */; };
+		5C89705251CC6B0969C443ED /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D527D94D170E2D51686974 /* Grapic.cpp */; };
+		44A65C022B3F6F4678E75A12 /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35592F8A37E94B2418DA3433 /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B97271C5C1030D619102872 /* invaders.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "invaders.cpp"; path = "../../apps/invaders/invaders.cpp"; sourceTree = "<group>"; };
+		08D527D94D170E2D51686974 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		515338B46A461B1A01F243A3 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		35592F8A37E94B2418DA3433 /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		7ED93062122048091A557707 /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		711939027ED87FD443D82792 /* invaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "invaders"; path = "invaders"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C45E2560A77AE434D3633F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CE15CE72576DCC6E2B6306 /* invaders */ = {
+			isa = PBXGroup;
+			children = (
+				78011E1D7D9626F25BF85047 /* apps */,
+				0ADC4B2C430378586C41557D /* src */,
+				171C41905A895D4D67E65B9B /* Products */,
+			);
+			name = "invaders";
+			sourceTree = "<group>";
+		};
+		78011E1D7D9626F25BF85047 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				05250D5F2BA569A86C0F5AB7 /* invaders */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		05250D5F2BA569A86C0F5AB7 /* invaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B97271C5C1030D619102872 /* invaders.cpp */,
+			);
+			name = "invaders";
+			sourceTree = "<group>";
+		};
+		0ADC4B2C430378586C41557D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				08D527D94D170E2D51686974 /* Grapic.cpp */,
+				515338B46A461B1A01F243A3 /* Grapic.h */,
+				35592F8A37E94B2418DA3433 /* Grapic_func.cpp */,
+				7ED93062122048091A557707 /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		171C41905A895D4D67E65B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711939027ED87FD443D82792 /* invaders */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F097AE561FB38685F0546B1 /* invaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216E1AD604EA5EF676683401 /* Build configuration list for PBXNativeTarget "invaders" */;
+			buildPhases = (
+				515811207BCE296054C97F5D /* Resources */,
+				5DA63B6D402500071DB01678 /* Sources */,
+				39C45E2560A77AE434D3633F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "invaders";
+			productInstallPath = "$(HOME)/bin";
+			productName = "invaders";
+			productReference = 711939027ED87FD443D82792 /* invaders */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "invaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 43CE15CE72576DCC6E2B6306 /* invaders */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F097AE561FB38685F0546B1 /* invaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515811207BCE296054C97F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA63B6D402500071DB01678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0F161A64C3501D5FFF72B9 /* invaders.cpp in Sources */,
+				5C89705251CC6B0969C443ED /* Grapic.cpp in Sources */,
+				44A65C022B3F6F4678E75A12 /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265E39E279507BC2662875F4 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "invaders";
+			};
+			name = "debug";
+		};
+		5EEC3B135FE949303AF37E16 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "invaders";
+			};
+			name = "release";
+		};
+		2D061A1F0AD703D71DD14DA0 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/invaders";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		47D85BC20C663584487E6643 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/invaders";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216E1AD604EA5EF676683401 /* Build configuration list for PBXNativeTarget "invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265E39E279507BC2662875F4 /* debug */,
+				5EEC3B135FE949303AF37E16 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D061A1F0AD703D71DD14DA0 /* debug */,
+				47D85BC20C663584487E6643 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

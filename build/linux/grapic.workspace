@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="grapic">
+		<Project filename="Start.cbp" active="1">
+		</Project>
+		<Project filename="MYPROJECT.cbp">
+		</Project>
+		<Project filename="calculette.cbp">
+		</Project>
+		<Project filename="invaders.cbp">
+		</Project>
+		<Project filename="systemsolaire.cbp">
+		</Project>
+		<Project filename="bird.cbp">
+		</Project>
+		<Project filename="particule.cbp">
+		</Project>
+		<Project filename="jeu_LAURA.cbp">
+		</Project>
+		<Project filename="shoot_basket.cbp">
+		</Project>
+		<Project filename="piano.cbp">
+		</Project>
+		<Project filename="dames.cbp">
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

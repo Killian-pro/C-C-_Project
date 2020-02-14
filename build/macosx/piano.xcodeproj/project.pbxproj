@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51DF6F3B5DEC3B3E6E07609A /* piano.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC62BB929FE120779D5495C /* piano.cpp */; };
+		71CB4DCC44E145893C492E90 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730561862C9B6A406C932C08 /* Grapic.cpp */; };
+		70C734241A92126233975840 /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D13F224EA27BB418B0305 /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BC62BB929FE120779D5495C /* piano.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "piano.cpp"; path = "../../apps/piano/piano.cpp"; sourceTree = "<group>"; };
+		730561862C9B6A406C932C08 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		52183E9B612C38DA4C9B7626 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		6B8D13F224EA27BB418B0305 /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		2ADE24E9060A460E283A75BF /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		274F69942C0512223BF03CC8 /* piano */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "piano"; path = "piano"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D0074342C248704BD60D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2A13E61CCF2C6B737D1DC4 /* piano */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9703B23F65FDD264D2640 /* apps */,
+				668B006B21A25BAE55E529DF /* src */,
+				60FE54070C0E62470FA136B1 /* Products */,
+			);
+			name = "piano";
+			sourceTree = "<group>";
+		};
+		3CE9703B23F65FDD264D2640 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				27906F52076839C618BB27E3 /* piano */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		27906F52076839C618BB27E3 /* piano */ = {
+			isa = PBXGroup;
+			children = (
+				0BC62BB929FE120779D5495C /* piano.cpp */,
+			);
+			name = "piano";
+			sourceTree = "<group>";
+		};
+		668B006B21A25BAE55E529DF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				730561862C9B6A406C932C08 /* Grapic.cpp */,
+				52183E9B612C38DA4C9B7626 /* Grapic.h */,
+				6B8D13F224EA27BB418B0305 /* Grapic_func.cpp */,
+				2ADE24E9060A460E283A75BF /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		60FE54070C0E62470FA136B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274F69942C0512223BF03CC8 /* piano */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476C282A4B607B2022A43EFB /* piano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3698104E0CD67871577A4486 /* Build configuration list for PBXNativeTarget "piano" */;
+			buildPhases = (
+				4FDB23A03F757D364C2852E2 /* Resources */,
+				7F74252F289A1BB378CC7302 /* Sources */,
+				71D0074342C248704BD60D84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "piano";
+			productInstallPath = "$(HOME)/bin";
+			productName = "piano";
+			productReference = 274F69942C0512223BF03CC8 /* piano */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "piano" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 5B2A13E61CCF2C6B737D1DC4 /* piano */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476C282A4B607B2022A43EFB /* piano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDB23A03F757D364C2852E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F74252F289A1BB378CC7302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF6F3B5DEC3B3E6E07609A /* piano.cpp in Sources */,
+				71CB4DCC44E145893C492E90 /* Grapic.cpp in Sources */,
+				70C734241A92126233975840 /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756104DE498D6BBD176874E3 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "piano";
+			};
+			name = "debug";
+		};
+		12BA571A2AC63C0E573F7CBB /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "piano";
+			};
+			name = "release";
+		};
+		356E398929F638A12A3F0439 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/piano";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		3A8E7BF476147FEC202F52B4 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/piano";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3698104E0CD67871577A4486 /* Build configuration list for PBXNativeTarget "piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756104DE498D6BBD176874E3 /* debug */,
+				12BA571A2AC63C0E573F7CBB /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356E398929F638A12A3F0439 /* debug */,
+				3A8E7BF476147FEC202F52B4 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

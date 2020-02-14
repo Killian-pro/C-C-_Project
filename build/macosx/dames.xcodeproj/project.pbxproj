@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF6256C2A5C47C736417450 /* dames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059558151EEB6F1C315F2F44 /* dames.cpp */; };
+		62E959883FC7486A6F511F5B /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C689A50DE21DD65F13731 /* Grapic.cpp */; };
+		27367917615A120C79F670E9 /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E3421BE0F9F1B2D7CE27ED5 /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		059558151EEB6F1C315F2F44 /* dames.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "dames.cpp"; path = "../../apps/dames/dames.cpp"; sourceTree = "<group>"; };
+		1B6C689A50DE21DD65F13731 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		2B6C5359552609330E1E73D6 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		1E3421BE0F9F1B2D7CE27ED5 /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		69EA67876E426F0C32AA470F /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		4BBB70DF0D3B0AFF769A2CC7 /* dames */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "dames"; path = "dames"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E49043E310718E02824319C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C070B311176A603899635E /* dames */ = {
+			isa = PBXGroup;
+			children = (
+				77AF3E115D5D72D03861761F /* apps */,
+				449B7F7F29F63DDE1A32073F /* src */,
+				189132AD48606B64656F5FB5 /* Products */,
+			);
+			name = "dames";
+			sourceTree = "<group>";
+		};
+		77AF3E115D5D72D03861761F /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				710405AE12913A7209A2704B /* dames */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		710405AE12913A7209A2704B /* dames */ = {
+			isa = PBXGroup;
+			children = (
+				059558151EEB6F1C315F2F44 /* dames.cpp */,
+			);
+			name = "dames";
+			sourceTree = "<group>";
+		};
+		449B7F7F29F63DDE1A32073F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1B6C689A50DE21DD65F13731 /* Grapic.cpp */,
+				2B6C5359552609330E1E73D6 /* Grapic.h */,
+				1E3421BE0F9F1B2D7CE27ED5 /* Grapic_func.cpp */,
+				69EA67876E426F0C32AA470F /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		189132AD48606B64656F5FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB70DF0D3B0AFF769A2CC7 /* dames */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6837013064D93CD13FFC1972 /* dames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A043D524C56CFC4938740F /* Build configuration list for PBXNativeTarget "dames" */;
+			buildPhases = (
+				5A5942B908CB063377981D3E /* Resources */,
+				5ABB032B629407E2244C653D /* Sources */,
+				6E49043E310718E02824319C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dames";
+			productInstallPath = "$(HOME)/bin";
+			productName = "dames";
+			productReference = 4BBB70DF0D3B0AFF769A2CC7 /* dames */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "dames" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 71C070B311176A603899635E /* dames */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6837013064D93CD13FFC1972 /* dames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5942B908CB063377981D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABB032B629407E2244C653D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF6256C2A5C47C736417450 /* dames.cpp in Sources */,
+				62E959883FC7486A6F511F5B /* Grapic.cpp in Sources */,
+				27367917615A120C79F670E9 /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094E262267004681491E079B /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "dames";
+			};
+			name = "debug";
+		};
+		0FB70BA41D047E9D69154A91 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "dames";
+			};
+			name = "release";
+		};
+		3C1945F10CDE3B6A53BD550C /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/dames";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		1761215925AE17A653C97C6F /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/dames";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A043D524C56CFC4938740F /* Build configuration list for PBXNativeTarget "dames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094E262267004681491E079B /* debug */,
+				0FB70BA41D047E9D69154A91 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "dames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1945F10CDE3B6A53BD550C /* debug */,
+				1761215925AE17A653C97C6F /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

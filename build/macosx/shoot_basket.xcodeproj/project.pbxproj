@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AB59EE54303F7E0DC65708 /* shoot_basket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 683957F21E3911BE101046A8 /* shoot_basket.cpp */; };
+		016E6AC0340B2917751775DC /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420B04FF432A0BC22024722F /* Grapic.cpp */; };
+		6E546E6B51904012262E32A6 /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201F4B191075033461706686 /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		683957F21E3911BE101046A8 /* shoot_basket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "shoot_basket.cpp"; path = "../../apps/shoot_basket/shoot_basket.cpp"; sourceTree = "<group>"; };
+		420B04FF432A0BC22024722F /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		52AF3680151F30377A8047A7 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		201F4B191075033461706686 /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		15C743F61F285703230A3462 /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		7DA57A315E946F8A5DB85DAE /* shoot_basket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "shoot_basket"; path = "shoot_basket"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9525A67C2B7CA2339A5849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBA305A02A8776112B95ED7 /* shoot_basket */ = {
+			isa = PBXGroup;
+			children = (
+				3FF82C55576B67541F0D30BB /* apps */,
+				70DE4CB65E9214855D097D98 /* src */,
+				6F82425A081F5B1517D11972 /* Products */,
+			);
+			name = "shoot_basket";
+			sourceTree = "<group>";
+		};
+		3FF82C55576B67541F0D30BB /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				43941C12656D3F0A46961277 /* shoot_basket */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		43941C12656D3F0A46961277 /* shoot_basket */ = {
+			isa = PBXGroup;
+			children = (
+				683957F21E3911BE101046A8 /* shoot_basket.cpp */,
+			);
+			name = "shoot_basket";
+			sourceTree = "<group>";
+		};
+		70DE4CB65E9214855D097D98 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				420B04FF432A0BC22024722F /* Grapic.cpp */,
+				52AF3680151F30377A8047A7 /* Grapic.h */,
+				201F4B191075033461706686 /* Grapic_func.cpp */,
+				15C743F61F285703230A3462 /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		6F82425A081F5B1517D11972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DA57A315E946F8A5DB85DAE /* shoot_basket */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35394381485F1F544BB64CFD /* shoot_basket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2302792C038F4D7445886937 /* Build configuration list for PBXNativeTarget "shoot_basket" */;
+			buildPhases = (
+				72D66E9F0D4227923169173E /* Resources */,
+				72A434F33EF402D75366073F /* Sources */,
+				4C9525A67C2B7CA2339A5849 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shoot_basket";
+			productInstallPath = "$(HOME)/bin";
+			productName = "shoot_basket";
+			productReference = 7DA57A315E946F8A5DB85DAE /* shoot_basket */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "shoot_basket" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 1EBA305A02A8776112B95ED7 /* shoot_basket */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35394381485F1F544BB64CFD /* shoot_basket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D66E9F0D4227923169173E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A434F33EF402D75366073F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AB59EE54303F7E0DC65708 /* shoot_basket.cpp in Sources */,
+				016E6AC0340B2917751775DC /* Grapic.cpp in Sources */,
+				6E546E6B51904012262E32A6 /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		055031E010B37DDE33E209F9 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "shoot_basket";
+			};
+			name = "debug";
+		};
+		6E7B7B7C314B7D9603035983 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "shoot_basket";
+			};
+			name = "release";
+		};
+		0D3B690E023C5870398D503F /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/shoot_basket";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		709C2EB230C3624620893F84 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/shoot_basket";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2302792C038F4D7445886937 /* Build configuration list for PBXNativeTarget "shoot_basket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055031E010B37DDE33E209F9 /* debug */,
+				6E7B7B7C314B7D9603035983 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "shoot_basket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3B690E023C5870398D503F /* debug */,
+				709C2EB230C3624620893F84 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675954E76BBA41FB037A74E8 /* systemsolaire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64355CE72D23722A13D366D1 /* systemsolaire.cpp */; };
+		545349160C7D5BE864B6594D /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7006446015951D5B214C5B62 /* Grapic.cpp */; };
+		5B9301FB617A1B0A35A361AF /* Grapic_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C773E545E805067485C68AF /* Grapic_func.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64355CE72D23722A13D366D1 /* systemsolaire.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "systemsolaire.cpp"; path = "../../apps/systemsolaire/systemsolaire.cpp"; sourceTree = "<group>"; };
+		7006446015951D5B214C5B62 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic.cpp"; path = "../../src/Grapic.cpp"; sourceTree = "<group>"; };
+		31F11A7908780AE614CC203C /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic.h"; path = "../../src/Grapic.h"; sourceTree = "<group>"; };
+		2C773E545E805067485C68AF /* Grapic_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Grapic_func.cpp"; path = "../../src/Grapic_func.cpp"; sourceTree = "<group>"; };
+		34F914010EA730294D330F91 /* Grapic_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grapic_func.h"; path = "../../src/Grapic_func.h"; sourceTree = "<group>"; };
+		31972DDA5A202A4E52360AD6 /* systemsolaire */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "systemsolaire"; path = "systemsolaire"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08990C517C8451065E9E6530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3628AA6DE06BB87C33156B /* systemsolaire */ = {
+			isa = PBXGroup;
+			children = (
+				6FB81D2215684ABA31490739 /* apps */,
+				36C746E30CDA31C411852DF4 /* src */,
+				61773074065E492D4B8F5AAF /* Products */,
+			);
+			name = "systemsolaire";
+			sourceTree = "<group>";
+		};
+		6FB81D2215684ABA31490739 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				50FB17B003933C15297C3A34 /* systemsolaire */,
+			);
+			name = "apps";
+			sourceTree = "<group>";
+		};
+		50FB17B003933C15297C3A34 /* systemsolaire */ = {
+			isa = PBXGroup;
+			children = (
+				64355CE72D23722A13D366D1 /* systemsolaire.cpp */,
+			);
+			name = "systemsolaire";
+			sourceTree = "<group>";
+		};
+		36C746E30CDA31C411852DF4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7006446015951D5B214C5B62 /* Grapic.cpp */,
+				31F11A7908780AE614CC203C /* Grapic.h */,
+				2C773E545E805067485C68AF /* Grapic_func.cpp */,
+				34F914010EA730294D330F91 /* Grapic_func.h */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		61773074065E492D4B8F5AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31972DDA5A202A4E52360AD6 /* systemsolaire */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DD5C40161F37192657684B /* systemsolaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466C640D240F27026C2F2DCA /* Build configuration list for PBXNativeTarget "systemsolaire" */;
+			buildPhases = (
+				040704D739C16F2823F25246 /* Resources */,
+				3E233F32328067D002240C8D /* Sources */,
+				08990C517C8451065E9E6530 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "systemsolaire";
+			productInstallPath = "$(HOME)/bin";
+			productName = "systemsolaire";
+			productReference = 31972DDA5A202A4E52360AD6 /* systemsolaire */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "systemsolaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 4A3628AA6DE06BB87C33156B /* systemsolaire */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DD5C40161F37192657684B /* systemsolaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040704D739C16F2823F25246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E233F32328067D002240C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675954E76BBA41FB037A74E8 /* systemsolaire.cpp in Sources */,
+				545349160C7D5BE864B6594D /* Grapic.cpp in Sources */,
+				5B9301FB617A1B0A35A361AF /* Grapic_func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C3359357FA337069827C9F /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "systemsolaire";
+			};
+			name = "debug";
+		};
+		208460391F0B3AF8277604DD /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "systemsolaire";
+			};
+			name = "release";
+		};
+		373B2FBC00A8044B651E52A4 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/debug/systemsolaire";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "debug";
+		};
+		18F758ED60AE7D312C43716F /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../..",
+					"../../src",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/Headers",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers",
+				);
+				OBJROOT = "../../obj/release/systemsolaire";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"../../extern/macosx/SDL2.framework/Versions/A/SDL2",
+					"../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image",
+					"../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf",
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = "../../bin";
+			};
+			name = "release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466C640D240F27026C2F2DCA /* Build configuration list for PBXNativeTarget "systemsolaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C3359357FA337069827C9F /* debug */,
+				208460391F0B3AF8277604DD /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "systemsolaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B2FBC00A8044B651E52A4 /* debug */,
+				18F758ED60AE7D312C43716F /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

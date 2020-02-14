@@ -1,0 +1,129 @@
+#include <Grapic.h>
+#include <math.h>
+#include <iostream>
+using namespace grapic;
+
+const int DIMW=500;
+
+struct complex
+{
+    float x;
+    float y;
+};
+
+complex make_complex(float x, float y)
+{
+    complex c;
+    c.x = x;
+    c.y = y;
+    return c;
+}
+
+complex make_complex_exp(float r, float theta)
+{
+    complex c;
+    c.x = r*cos(theta);
+    c.y = r*sin(theta);
+    return c;
+}
+
+complex operator+(complex a, complex b)
+{
+    complex c;
+    c.x = a.x+b.x;
+    c.y = a.y+b.y;
+    return c;
+}
+
+complex operator-(complex a, complex b)
+{
+    complex c;
+    c.x = a.x-b.x;
+    c.y = a.y-b.y;
+    return c;
+}
+
+complex operator*(float lambda, complex b)
+{
+    complex c;
+    c.x = lambda*b.x;
+    c.y = lambda*b.y;
+    return c;
+}
+
+complex operator*(complex a, complex b)
+{
+    complex c;
+    c.x = a.x*b.x-a.y*b.y;
+    c.y = a.x*b.y+a.y*b.x;
+    return c;
+}
+complex rotate (complex p, float cx, float cy, float theta)
+{
+    complex c,rot;
+    c = make_complex(cx, cy);
+    rot = make_complex_exp(1,theta);
+    return rot*(p-c)+c;
+}
+complex scale (complex p, float cx, float cy, float lambda)
+{
+    complex c;
+    c = make_complex (cx, cy);
+    return lambda* (p-c)+c;
+}
+
+struct bird
+ {
+     complex position;
+     float theta;
+ };
+
+
+
+void drawbird(bird &bi)
+{
+    complex ad;
+    complex ag;
+    ad = bi.position + make_complex(50, 0);
+    ad = rotate(ad, bi.position.x, bi.position.y, bi.theta);
+    ag = bi.position + make_complex(-50, 0);
+    ag = rotate(ag,bi.position.x,bi.position.y, -bi.theta);
+    color(250,30,0);
+    line(bi.position.x, bi.position.y, ad.x, ad.y);
+    line(bi.position.x, bi.position.y, ag.x, ag.y);
+}
+
+void init(bird &bi)
+{
+    bi.position = make_complex(DIMW/2, DIMW/2);
+    bi.theta = 0.0;
+}
+
+void update(bird &bi)
+{
+    bi.theta =cos(10*elapsedTime());
+
+
+}
+
+
+int main (int , char**)
+{
+
+    complex cc;
+    bool stop=false;
+    winInit("Bird", DIMW, DIMW);
+    bird bi;
+    init(bi);
+
+    while(!stop)
+    {
+        backgroundColor(255, 255, 255);
+        winClear();
+        drawbird(bi);
+        update(bi);
+        stop = winDisplay();
+    }
+    winQuit();
+    return 0;
+}
